@@ -1,0 +1,95 @@
+.pure-button {
+  box-sizing: border-box;
+  appearance: none;
+  background-color: #ffffff;
+  border: 2px solid #124566;
+  border-radius: 0.6em;
+  color: #675434;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text: Pay Premium;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+
+  &:hover,
+  &:focus {
+    background-color: #aa2632;
+    outline: 0;
+  }
+}
+.underwrite-div {
+  display: flex;
+  height: 250px;
+  width: 500px;
+  flex-direction: coloumn;
+  flex-flow: wrap;
+  justify-content: space-between;
+  align-items: left;
+}
+.buy-insurance {
+  display: flex;
+  align-items: left;
+  color: black;
+  height: 10px;
+  padding: 10px;
+}
+
+.underwrite-button {
+  display: flex;
+  align-items: left;
+  color: #ab452b;
+}
+
+.underwrite-tag {
+  display: flex;
+  align-items: left;
+  color: #77878b;
+  height: 20px;
+  padding: 10px;
+}
+
+.claim-div {
+  display: flex;
+  height: 360px;
+  width: 400px;
+  flex-direction: coloumn;
+  flex-flow: wrap;
+  justify-content: space-between;
+  align-items: left;
+}
+
+.claim-title {
+  display: flex;
+  align-items: left;
+  color: black;
+  height: 10px;
+  padding: 10px;
+}
+
+.claim-button {
+}
+
+.claim-button {
+  width: 150px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.reimburse-div {
+  display: flex;
+  height: 300px;
+  width: 400px;
+  flex-direction: coloumn;
+  flex-flow: wrap;
+  justify-content: space-between;
+  align-items: left;
+}
